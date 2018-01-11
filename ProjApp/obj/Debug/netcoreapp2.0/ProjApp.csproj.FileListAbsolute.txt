@@ -1,0 +1,11 @@
+C:\Users\Legi\source\repos\ProjApp\ProjApp\bin\Debug\netcoreapp2.0\ProjApp.deps.json
+C:\Users\Legi\source\repos\ProjApp\ProjApp\bin\Debug\netcoreapp2.0\ProjApp.runtimeconfig.json
+C:\Users\Legi\source\repos\ProjApp\ProjApp\bin\Debug\netcoreapp2.0\ProjApp.runtimeconfig.dev.json
+C:\Users\Legi\source\repos\ProjApp\ProjApp\bin\Debug\netcoreapp2.0\ProjApp.dll
+C:\Users\Legi\source\repos\ProjApp\ProjApp\bin\Debug\netcoreapp2.0\ProjApp.pdb
+C:\Users\Legi\source\repos\ProjApp\ProjApp\obj\Debug\netcoreapp2.0\ProjApp.csprojResolveAssemblyReference.cache
+C:\Users\Legi\source\repos\ProjApp\ProjApp\obj\Debug\netcoreapp2.0\ProjApp.csproj.CoreCompileInputs.cache
+C:\Users\Legi\source\repos\ProjApp\ProjApp\obj\Debug\netcoreapp2.0\ProjApp.AssemblyInfoInputs.cache
+C:\Users\Legi\source\repos\ProjApp\ProjApp\obj\Debug\netcoreapp2.0\ProjApp.AssemblyInfo.cs
+C:\Users\Legi\source\repos\ProjApp\ProjApp\obj\Debug\netcoreapp2.0\ProjApp.dll
+C:\Users\Legi\source\repos\ProjApp\ProjApp\obj\Debug\netcoreapp2.0\ProjApp.pdb

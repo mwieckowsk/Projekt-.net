@@ -1,0 +1,64 @@
+﻿@model IEnumerable<ProjApp.Models.CarViewModels.CarViewModel>
+
+@{
+    ViewData["Title"] = "Car List";
+}
+
+<h2>Car List</h2>
+<h4>Here's a newest addition of a car list from our latest purchase</h4>
+<form asp-action="Search" method="get" class="form-inline">
+    <input name="phrase" class="form-control input-sm" placeholder="@ViewData["phrase"]" autofocus />
+    <input type="submit" value="Search" class="btn btn-info btn-sm" />
+</form>
+<p>
+    <a asp-action="Create" class="btn btn-primary btn-sm">Create</a>
+</p>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Brand)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Type)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReleaseDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Built)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Country)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                <p asp-display-for="@item.Brand.Name"></p>
+            </td>
+            <td>
+                <p asp-display-for="@item.Type"></p>
+            </td>
+            <td>
+                <p asp-display-for="@item.ReleaseDate"></p>
+            </td>
+            <td>
+                <p asp-display-for="@item.Built"></p>
+            </td>
+            <td>
+                <p asp-display-for="@item.Country.Name"></p>
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.CarId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.CarId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.CarId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
